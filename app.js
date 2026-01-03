@@ -587,6 +587,7 @@ const modal = document.getElementById("modal");
 const cartCount = document.getElementById("cartCount");
 const menuToggle = document.querySelector(".menu-toggle");
 const navLinks = document.querySelector(".nav-links");
+const navbar = document.querySelector(".navbar");
 
 // 4. TOASTR CONFIG
 toastr.options = {
@@ -663,10 +664,28 @@ function setupEventListeners() {
 
   // Mobile menu
   if (menuToggle) {
-    menuToggle.onclick = () => {
+    menuToggle.onclick = (e) => {
+      e.stopPropagation();
       navLinks.classList.toggle("active");
+      document.body.classList.toggle("navbar-open");
     };
   }
+
+  // Close mobile menu when clicking outside
+  document.addEventListener('click', (e) => {
+    if (!navbar.contains(e.target) && navLinks.classList.contains('active')) {
+      navLinks.classList.remove("active");
+      document.body.classList.remove("navbar-open");
+    }
+  });
+
+  // Close mobile menu when clicking a link
+  document.querySelectorAll('.nav-links a').forEach(link => {
+    link.addEventListener('click', () => {
+      navLinks.classList.remove("active");
+      document.body.classList.remove("navbar-open");
+    });
+  });
 
   // Close modal on outside click
   window.onclick = (e) => {
@@ -716,6 +735,7 @@ function showSection(sectionId) {
     // Close mobile menu
     if (navLinks) {
       navLinks.classList.remove("active");
+      document.body.classList.remove("navbar-open");
     }
 
     // Scroll to top
