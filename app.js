@@ -10,7 +10,7 @@ const tariffsData = {
         id: "tg_premium_1",
         name: "1 Oylik",
         description: "Yuqori sifatli obunachilar",
-        price: 50000,
+        price: 55000,
         features: [
           "✅ 30 kun kafolat",
           "✅ Aktiv va haqiqiy foydalanuvchilar",
@@ -22,7 +22,7 @@ const tariffsData = {
         id: "tg_premium_2",
         name: "3 Oylik",
         description: "Chegirmali paket",
-        price: 170000,
+        price: 180000,
         features: [
           "✅ 30 kun kafolat",
           "✅ Aktiv va haqiqiy foydalanuvchilar",
@@ -34,7 +34,7 @@ const tariffsData = {
         id: "tg_premium_3",
         name: "6 Oylik",
         description: "Eng katta chegirma",
-        price: 225000,
+        price: 235000,
         features: [
           "✅ 30 kun kafolat",
           "✅ Aktiv va haqiqiy foydalanuvchilar",
@@ -48,7 +48,7 @@ const tariffsData = {
         id: "tg_stars_1",
         name: "100 Stars",
         description: "Kichik paket",
-        price: 25000,
+        price: 28000,
         features: [
           "✅ Barcha kanallar va guruhlar uchun",
           "✅ Tez yetkazib berish",
@@ -60,7 +60,7 @@ const tariffsData = {
         id: "tg_stars_2",
         name: "500 Stars",
         description: "O'rta paket",
-        price: 120000,
+        price: 130000,
         features: [
           "✅ Barcha kanallar va guruhlar uchun",
           "✅ Tez yetkazib berish",
@@ -72,7 +72,7 @@ const tariffsData = {
         id: "tg_stars_3",
         name: "1000 Stars",
         description: "Katta paket",
-        price: 230000,
+        price: 265000,
         features: [
           "✅ Barcha kanallar va guruhlar uchun",
           "✅ Tez yetkazib berish",
@@ -84,7 +84,7 @@ const tariffsData = {
         id: "tg_stars_4",
         name: "5000 Stars",
         description: "Professional paket",
-        price: 1150000,
+        price: 1270000,
         features: [
           "✅ Barcha kanallar va guruhlar uchun",
           "✅ Tez yetkazib berish",
@@ -96,7 +96,7 @@ const tariffsData = {
         id: "tg_stars_5",
         name: "10000 Stars",
         description: "Biznes paket",
-        price: 2250000,
+        price: 2550000,
         features: [
           "✅ Barcha kanallar va guruhlar uchun",
           "✅ Tez yetkazib berish",
@@ -110,7 +110,7 @@ const tariffsData = {
         id: "tg_gift_1",
         name: "Gift-ayiqcha",
         emoji: "🐻",
-        price: 5000,
+        price: 13000,
         description: "Sevimli ayiqcha sovg'asi",
         features: [
           "✅ Darhol yetkazib berish",
@@ -264,8 +264,8 @@ const tariffsData = {
     views: [
       {
         id: "ig_views_1",
-        name: "1000 ko'rish",
-        price: 1000,
+        name: "10000 ko'rish",
+        price: 5000,
         badge: "1️⃣",
         features: [
           "✅ Postlarni ommalashtirish",
@@ -275,8 +275,8 @@ const tariffsData = {
       },
       {
         id: "ig_views_2",
-        name: "5000 ko'rish",
-        price: 3000,
+        name: "50000 ko'rish",
+        price: 12000,
         badge: "2️⃣",
         features: [
           "✅ Postlarni ommalashtirish",
@@ -286,8 +286,8 @@ const tariffsData = {
       },
       {
         id: "ig_views_3",
-        name: "10000 ko'rish",
-        price: 7000,
+        name: "100000 ko'rish",
+        price: 25000,
         badge: "3️⃣",
         features: [
           "✅ Postlarni ommalashtirish",
@@ -298,7 +298,7 @@ const tariffsData = {
       {
         id: "ig_views_4",
         name: "50000 ko'rish",
-        price: 19000,
+        price: 30000,
         badge: "4️⃣",
         features: [
           "✅ Postlarni ommalashtirish",
@@ -344,7 +344,7 @@ const tariffsData = {
       {
         id: "ig_likes_4",
         name: "50000 like",
-        price: 140000,
+        price: 100000,
         badge: "4️⃣",
         features: [
           "✅ Interaktivlikni oshirish",
@@ -359,7 +359,7 @@ const tariffsData = {
       id: "pubg_1",
       name: "60 UC",
       flag: "🇺🇸",
-      price: 14000,
+      price: 12000,
       badge: "1️⃣",
       features: [
         "✅ Darhol yetkazib berish",
@@ -371,7 +371,7 @@ const tariffsData = {
       id: "pubg_2",
       name: "325 UC",
       flag: "🇺🇸",
-      price: 66000,
+      price: 56000,
       badge: "2️⃣",
       features: [
         "✅ Darhol yetkazib berish",
@@ -383,7 +383,7 @@ const tariffsData = {
       id: "pubg_3",
       name: "660 UC",
       flag: "🇺🇸",
-      price: 134000,
+      price: 111000,
       badge: "3️⃣",
       features: [
         "✅ Darhol yetkazib berish",
@@ -395,7 +395,7 @@ const tariffsData = {
       id: "pubg_4",
       name: "1800 UC",
       flag: "🇺🇸",
-      price: 335000,
+      price: 302000,
       badge: "4️⃣",
       features: [
         "✅ Darhol yetkazib berish",
@@ -407,7 +407,7 @@ const tariffsData = {
       id: "pubg_5",
       name: "3850 UC",
       flag: "🇺🇸",
-      price: 650000,
+      price: 548000,
       badge: "5️⃣",
       features: [
         "✅ Darhol yetkazib berish",
@@ -419,7 +419,7 @@ const tariffsData = {
       id: "pubg_6",
       name: "8100 UC",
       flag: "🇺🇸",
-      price: 1620000,
+      price: 1100000,
       badge: "6️⃣",
       features: [
         "✅ Darhol yetkazib berish",
@@ -433,17 +433,17 @@ const tariffsData = {
   telegramBot: [
     {
       id: "telegram_bot_basic",
-      name: "BOSHLANG'ICH BOT",
+      name: "SMM MAXSUSIY BOT",
       description: "Oddiy Telegram bot yasash",
-      price: 500000,
+      price: 120000,
       features: [
         "✅ Maxsus dizayn",
         "✅ Asosiy buyruqlar",
         "✅ Foydalanuvchi boshqaruvi",
-        "✅ 3 kun ichida tayyor"
+        "✅ 2 kun ichida tayyor"
       ],
       badge: "🤖",
-      developmentTime: "3 kun",
+      developmentTime: "2 kun",
       includes: [
         "Bot dizayni va loyihalash",
         "Asosiy buyruqlar (start, help, info)",
@@ -453,17 +453,17 @@ const tariffsData = {
     },
     {
       id: "telegram_bot_business",
-      name: "BIZNES BOT",
+      name: "PUBG cyuberSPORT BOT",
       description: "Kichik biznes uchun bot",
-      price: 1200000,
+      price: 120000,
       features: [
         "✅ Mahsulotlar katalogi",
         "✅ Buyurtma qabul qilish",
         "✅ Admin paneli",
-        "✅ 4 kun ichida tayyor"
+        "✅ 2 kun ichida tayyor"
       ],
       badge: "🤖",
-      developmentTime: "4 kun",
+      developmentTime: "2 kun",
       includes: [
         "Bot dizayni va loyihalash",
         "Mahsulotlar katalogi",
@@ -474,17 +474,17 @@ const tariffsData = {
     },
     {
       id: "telegram_bot_pro",
-      name: "PROFESSIONAL BOT",
-      description: "Korporativ bot yechimlari",
-      price: 2500000,
+      name: "PRO BOT",
+      description: "SMM, CYUBERSPORT va KO'P MAQSADLI BOT",
+      price: 250000,
       features: [
         "✅ To'liq moslashtirilgan",
         "✅ Ma'lumotlar bazasi bilan",
         "✅ API integratsiyasi",
-        "✅ 5 kun ichida tayyor"
+        "✅ 3 kun ichida tayyor"
       ],
       badge: "🤖",
-      developmentTime: "5 kun",
+      developmentTime: "3 kun",
       includes: [
         "Bot dizayni va loyihalash",
         "To'liq moslashtirilgan interfeys",
@@ -500,9 +500,9 @@ const tariffsData = {
   website: [
     {
       id: "website_basic",
-      name: "VIZITKA SAYT",
+      name: "SMM MARKET",
       description: "Kichik biznes uchun vizitka sayt",
-      price: 1000000,
+      price: 150000,
       features: [
         "✅ 5 sahifa",
         "✅ Mobil moslashuvchan dizayn",
@@ -510,7 +510,7 @@ const tariffsData = {
         "✅ 5 kun ichida tayyor"
       ],
       badge: "🌐",
-      developmentTime: "5 kun",
+      developmentTime: "4 kun",
       includes: [
         "Bosh sahifa",
         "Biz haqimizda",
@@ -523,17 +523,17 @@ const tariffsData = {
     },
     {
       id: "website_corporate",
-      name: "KORPORATIV SAYT",
+      name: "SHAXSIY SAIT",
       description: "Korporativ kompaniya sayti",
-      price: 3000000,
+      price: 300000,
       features: [
         "✅ 10+ sahifa",
         "✅ Yangiliklar bo'limi",
         "✅ Ma'lumotlar bazasi",
-        "✅ 7 kun ichida tayyor"
+        "✅ 3 kun ichida tayyor"
       ],
       badge: "🌐",
-      developmentTime: "7 kun",
+      developmentTime: "3 kun",
       includes: [
         "Bosh sahifa",
         "Kompaniya haqida",
@@ -551,15 +551,15 @@ const tariffsData = {
       id: "website_shop",
       name: "ONLAYN DO'KON",
       description: "To'liq onlayn savdo platformasi",
-      price: 5000000,
+      price: 200000,
       features: [
         "✅ To'lov tizimlari",
         "✅ Mahsulotlar katalogi",
         "✅ Buyurtma boshqaruvi",
-        "✅ 10 kun ichida tayyor"
+        "✅ 5 kun ichida tayyor"
       ],
       badge: "🌐",
-      developmentTime: "10 kun",
+      developmentTime: "5 kun",
       includes: [
         "Bosh sahifa",
         "Mahsulotlar katalogi",
@@ -1578,7 +1578,7 @@ function confirmPayment() {
   updateCartCount();
 
   showToast(
-    "✅ Buyurtmangiz qabul qilindi! Admin paneliga yo'naltirilmoqdasiz...",
+    "✅ Buyurtmangiz qabul qilindi! Endi adminga chekni tashlang...",
     "success"
   );
 
@@ -1600,29 +1600,29 @@ function showOrderConfirmation(order) {
             )}</strong></p>
             
             <div class="instructions">
-                <h4><i class="fas fa-info-circle"></i> DIQQAT! ENDI ADMIN PANELIGA O'TING:</h4>
+                <h4><i class="fas fa-info-circle"></i> ENDI CHEK RASMINGIZNI ADMINGA TASHLANG:</h4>
                 
                 <div class="alert alert-info">
                     <i class="fas fa-exclamation-triangle"></i>
-                    <strong>BUYURTMA RAQAMINGIZNI ADMINGA YUBORING!</strong>
+                    <strong>QUYIDAGI TUGMANI BOSING VA CHEK RASMINGIZNI YUBORING!</strong>
                 </div>
                 
-                <h4><i class="fas fa-paper-plane"></i> Qanday yuborish:</h4>
+                <h4><i class="fas fa-paper-plane"></i> Qanday qilish kerak:</h4>
                 <ol>
-                    <li>Quyidagi "ADMIN PANELIGA O'TISH" tugmasini bosing</li>
-                    <li>Telegram botga buyurtma raqamingizni yozing</li>
-                    <li>To'lov qilganligingizni tasdiqlang</li>
-                    <li>Kutish rejimiga o'ting</li>
+                    <li>Quyidagi "CHEKNI ADMINGA TASHLASH" tugmasini bosing</li>
+                    <li>Telegram ochilganda, chek rasmingizni yuboring</li>
+                    <li>Buyurtma raqamingizni ham yozib qo'ying</li>
+                    <li>Admin sizni tekshiradi va xizmatni boshlaydi</li>
                 </ol>
                 
-                <p class="note"><i class="fas fa-clock"></i> Xizmat 1-24 soat ichida boshlanadi.</p>
+                <p class="note"><i class="fas fa-clock"></i> Chekni tashlaganingizdan so'ng xizmat 1-24 soat ichida boshlanadi.</p>
             </div>
             
             <div class="action-buttons">
                 <button onclick="openAdminPanel('${
                   order.id
                 }')" class="btn-primary">
-                    <i class="fab fa-telegram"></i> ADMINGA CHEK RASMINI TASHLASH
+                    <i class="fab fa-telegram"></i> CHEKNI ADMINGA TASHLASH
                 </button>
                 <button onclick="copyOrderId('${
                   order.id
@@ -1647,29 +1647,27 @@ function openAdminPanel(orderId) {
   const chatId = "8074394669";
   
   // Buyurtma ma'lumotlarini yig'amiz
-  let orderDetails = `📦 YANGI BUYURTMA!\n\n`;
-  orderDetails += `🆔 Buyurtma raqami: ${orderId}\n`;
-  orderDetails += `📅 Sana: ${new Date().toLocaleDateString('uz-UZ')}\n`;
-  orderDetails += `⏰ Soat: ${new Date().toLocaleTimeString('uz-UZ')}\n\n`;
+  let orderDetails = `📦 <b>YANGI BUYURTMA!</b>\n\n`;
+  orderDetails += `🆔 <b>Buyurtma raqami:</b> ${orderId}\n`;
+  orderDetails += `📅 <b>Sana:</b> ${new Date().toLocaleDateString('uz-UZ')}\n`;
+  orderDetails += `⏰ <b>Soat:</b> ${new Date().toLocaleTimeString('uz-UZ')}\n\n`;
   
   // Foydalanuvchi nomi
   const userName = localStorage.getItem("smm_userName") || "Noma'lum";
-  orderDetails += `👤 Foydalanuvchi: ${userName}\n\n`;
+  orderDetails += `👤 <b>Foydalanuvchi:</b> ${userName}\n\n`;
   
   // Buyurtma tarkibi
   const order = orders.find(o => o.id === orderId);
   if (order) {
-    orderDetails += `🛍️ Buyurtma tarkibi:\n`;
+    orderDetails += `🛍️ <b>Buyurtma tarkibi:</b>\n`;
     order.items.forEach((item, index) => {
       orderDetails += `${index + 1}. ${item.name} - ${item.quantity} x ${formatPrice(item.price)} = ${formatPrice(item.price * item.quantity)}\n`;
     });
-    orderDetails += `\n💰 Jami to'lov: ${formatPrice(order.total)}\n`;
-    orderDetails += `📊 Status: Kutilmoqda\n`;
+    orderDetails += `\n💰 <b>Jami to'lov:</b> ${formatPrice(order.total)}\n`;
+    orderDetails += `📊 <b>Status:</b> Kutilmoqda\n`;
   }
   
-  orderDetails += `\n📱 Platforma: SMM Market Web Sayti\n`;
-  orderDetails += `📍 IP: ${getUserIP() || "Noma'lum"}\n`;
-  orderDetails += `🌐 User Agent: ${navigator.userAgent.substring(0, 50)}...`;
+  orderDetails += `\n📱 <b>Platforma:</b> SMM Market Web Sayti`;
   
   // Telegram API orqali xabar yuborish
   const apiUrl = `https://api.telegram.org/bot${botToken}/sendMessage`;
@@ -1688,24 +1686,47 @@ function openAdminPanel(orderId) {
   .then(response => response.json())
   .then(data => {
     console.log('Telegram xabar yuborildi:', data);
-    showToast("✅ Buyurtma ma'lumotlari adminga yuborildi!", "success");
+    
+    // Xabar yuborilgandan so'ng, foydalanuvchini admin bilan gaplashish uchun telegram chatiga yo'naltiramiz
+    setTimeout(() => {
+      const adminUsername = "adhhamjonov";
+      const userMessage = `Assalomu alaykum! Men buyurtma berdim.\nBuyurtma raqami: ${orderId}\n\nTo'lov qilganimni tasdiqlayman va chek rasmini tashlamoqchiman.`;
+      
+      const telegramUrl = `https://t.me/${adminUsername}?text=${encodeURIComponent(userMessage)}`;
+      
+      // Yangi oynada telegram chatini ochamiz
+      window.open(telegramUrl, "_blank");
+      
+      // Xabarni ko'rsatamiz
+      showToast("✅ Buyurtma ma'lumotlari adminga yuborildi! Endi admin bilan gaplashishingiz mumkin.", "success");
+      
+      // Modalni yopish
+      setTimeout(() => {
+        modal.style.display = "none";
+      }, 2000);
+    }, 1500);
   })
   .catch(error => {
     console.error('Xatolik:', error);
-    // Agar API ishlamasa, oddiy havola orqali ochish
-    const telegramUrl = `https://t.me/adhhamjonov?text=${encodeURIComponent(`Buyurtma raqamim: ${orderId}\nTo'lov qildim.`)}`;
+    
+    // Agar API ishlamasa, to'g'ridan-to'g'ri telegram chatiga yo'naltiramiz
+    const adminUsername = "adhhamjonov";
+    const userMessage = `Assalomu alaykum! Men buyurtma berdim.\nBuyurtma raqami: ${orderId}\n\nTo'lov qilganimni tasdiqlayman va chek rasmini tashlamoqchiman.`;
+    
+    const telegramUrl = `https://t.me/${adminUsername}?text=${encodeURIComponent(userMessage)}`;
+    
+    // Yangi oynada telegram chatini ochamiz
     window.open(telegramUrl, "_blank");
+    
+    showToast("✅ Admin bilan gaplashish oynasi ochildi! Endi chek rasmingizni yuboring.", "success");
+    
+    // Modalni yopish
+    setTimeout(() => {
+      modal.style.display = "none";
+    }, 1500);
   });
 
-  // Modalni yopish
-  modal.style.display = "none";
-
-  console.log("📱 Buyurtma ma'lumotlari adminga yuborildi", orderId);
-}
-
-// Foydalanuvchi IP manzilini olish (oddiy usul)
-function getUserIP() {
-  return "Foydalanuvchi IP manzili";
+  console.log("📱 Buyurtma ma'lumotlari adminga yuborildi va chatga yo'naltirildi", orderId);
 }
 
 // 14. ORDERS FUNCTIONS
