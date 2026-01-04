@@ -297,7 +297,7 @@ const tariffsData = {
       },
       {
         id: "ig_views_4",
-        name: "50000 ko'rish",
+        name: "500000 ko'rish",
         price: 30000,
         badge: "4️⃣",
         features: [
